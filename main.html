@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="dist/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Könyvek</title>
+</head>
+<body>
+
+    <img src="./src/hatter2.webp" alt="konyv">
+
+    <div class="container">
+
+
+        <div class="row">
+            <h1>Könyvek</h1>
+            <p>Könyvek darabszáma: 0</p> <br>
+            <p>Az ingyenes könyvek darabszáma: 0</p> <br>
+            <p>A könyvek összesített ára: 0Ft</p>
+        </div>
+
+        <div class="row">
+            <fieldset>
+                <legend>Book types:</legend>
+            
+                <div>
+                  <input type="radio" id="paperbook" name="book" checked>
+                  <label for="paperbook">PaperBook</label>
+
+                  <input type="radio" id="ebook" name="book">
+                  <label for="ebook">Ebook</label>
+                </div>
+            
+            
+            
+            </fieldset>
+
+        </div>
+
+        <div class="row">
+
+            <form id="szulo">
+
+                <div>
+                    <input id="title" type="text" placeholder="Title">
+                </div>
+
+                <div>
+                    <input id="price" type="text" placeholder="Price">
+                </div>
+
+                <div>
+                    <input id="isbn" type="text" placeholder="Isbn">
+                </div>
+
+                <div>
+                    <input id="valto" type="text" placeholder="Weight">
+                </div>
+
+                <div id="hiba"></div>
+
+                
+
+            </form>
+            
+        </div>
+
+        <button id="gomb">Hozzáad</button>
+
+</div>
+
+   
+ 
+</body>
+</html>
